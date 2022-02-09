@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link href="//db.onlinewebfonts.com/c/8f52f78dcd7f2a1b82250dae62b0bb20?family=Freight+Sans" rel="stylesheet" type="text/css"/>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="src/img/icon.jpg">
+    <title>SquidGame</title>
+</head>
+<body class="bg-squid-secondary bg-cover">
+    <section id="main" class="w-full h-screen max-h-screen">
+        <header class="w-full h-12 flex justify-between bg-black px-12 text-white">
+            <div class="w-full h-12 py-3 lg:w-auto">
+                <i class='bx bx-up-arrow text-[26px]'></i>
+                <i class='bx bx-circle text-2xl'></i>
+                <i class='bx bx-square text-2xl'></i>
+            </div>
+            <div class="hidden w-7/12 h-12 bg-gradient-to-t from-black to-gray-700 lg:block">
+                <div>
+                    <ul class="flex justify-center items-center text-xs py-3 font-freight">
+                        <li class="mx-4 cursor-pointer hover:text-slate-300">ABOUT</li>
+                        <li class="mx-4 cursor-pointer hover:text-slate-300">GAMES</li>
+                        <li class="mx-4 cursor-pointer hover:text-slate-300">VICTORS</li>
+                        <li class="mx-4 cursor-pointer hover:text-slate-300">HISTORY</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="h-12 py-2">
+                <div class="flex justify-between items-center cursor-pointer hover:text-slate-300">
+                    <i class='bx bx-menu text-3xl mr-2'></i>
+                    <h3 class="text-xs font-freight">MENU</h3>
+                </div>
+            </div>
+        </header>
+        <div class="w-full h-3/4 flex flex-col justify-between lg:flex-row">
+            <div class="w-full lg:w-8/12">
+                <h2 class="underline font-freight text-white text-center mt-32 lg:mt-96 decoration-red-700 tracking-wider cursor-pointer hover:text-slate-300">SEE GAME RULES</h2>
+            </div>
+            <div class="w-full flex flex-row mt-32 bg-black bg-opacity-10 backdrop-blur-xl lg:mt-16 lg:w-4/12 lg:flex-col lg:bg-transparent lg:backdrop-blur-none">
+                <rule title="ZERO TOLERANCE" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt."></rule>
+                <rule title="KEEP YOUR IDENTITY" content="Lorem ipsum dolor sit amet consectetur adipisicing elit."></rule>
+                <rule title="NO MERCY" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, incidunt."></rule>
+            </div>
+            <div class="hidden w-3/12 lg:block">
+                <div class="flex flex-col justify-between items-end pr-12 mt-48">
+                    <i class='bx bx-circle m-2 text-white cursor-pointer hover:text-slate-300'></i>
+                    <i class='bx bx-circle m-2 text-white cursor-pointer hover:text-slate-300'></i>
+                    <i class='bx bx-circle m-2 text-white cursor-pointer hover:text-slate-300'></i>
+                </div>
+            </div>
+        </div>
+        <footer class="w-full h-24 flex justify-between bg-black py-4 px-12 bg-opacity-20 backdrop-blur-sm shadow-2xl">
+            <div class="w-5/12">
+                <div class="flex justify-start items-center cursor-pointer">
+                    <i class='bx bx-play-circle text-white text-6xl font-thin hover:text-slate-300'></i>
+                    <h3 class="text-white text-sm ml-4 font-freight hover:text-slate-300">PLAY TRAILER</h3>
+                </div>
+            </div>
+            <div class="hidden w-3/12 lg:block">
+                <ul class="flex justify-between">
+                    <li class="mx-2">
+                        <h4 class="text-white text-xs font-freight text-right leading-9 cursor-pointer hover:text-slate-300">TRAINING</h4>
+                        <h4 class="text-white text-xs font-freight text-right">01</h4>
+                    </li>
+                    <li class="mx-2">
+                        <h4 class="text-white text-xs font-freight text-right leading-9 cursor-pointer hover:text-slate-300">GALLERY</h4>
+                        <h4 class="text-white text-xs font-freight text-right">02</h4>
+                    </li>
+                    <li class="mx-2">
+                        <h4 class="text-white text-xs font-freight text-right leading-9 cursor-pointer hover:text-slate-300">COLLECTIONS</h4>
+                        <h4 class="text-white text-xs font-freight text-right">03</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex justify-between items-center">
+                <i class='bx bxs-left-arrow-alt text-white text-2xl mx-8 cursor-pointer hover:text-slate-300'></i>
+                <i class='bx bxs-right-arrow-alt text-white text-2xl mx-8 cursor-pointer hover:text-slate-300'></i>
+            </div>
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="src/app.js"></script>
+</body>
+</html>
